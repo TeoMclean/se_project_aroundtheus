@@ -5,3 +5,20 @@
   align-items: center;
   border-bottom: 1px solid #545454;
 }
+
+.header__logo {
+  width: 173px;
+  height: 33px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    min-height: 85px;
+  }
+
+  .header__logo {
+    width: 126px;
+    height: 24px;
+  }
+}
